@@ -1,0 +1,8 @@
+sample text file for adding git repo from local repo
+
+git clone https://github.com/katha60km/Test.git
+
+git config --global user.name katha60km
+
+git config --global user.email ramukumarvsmi@gmail.com
+
