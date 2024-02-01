@@ -6,3 +6,15 @@ git config --global user.name katha60km
 
 git config --global user.email ramukumarvsmi@gmail.com
 
+git add <FileName>
+    # it will added to staging area
+
+git commit <FileName>
+    # it will ready for push
+
+git push origin main
+    # File was sucessfully upload to github
+
+git pull 
+    # download modified file from github
+    
