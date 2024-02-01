@@ -17,4 +17,10 @@ git push origin main
 
 git pull 
     # download modified file from github
-    
+
+git init
+    # when we created a new folder from local repo we use "git init"
+
+git remote add orgin <new git repo extension>
+    # create a new folder under test and connect to local machine
+
