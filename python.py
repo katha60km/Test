@@ -1,11 +1,13 @@
+#If themp is greatherthan 30 it's a hot day. otherwise if it's less than 10 it's a cold day, otherwise it's neither hot nor cold.
 import math
-price = 100000
-has_good_credit = False
-
-if has_good_credit:
-    downpayment = 0.1 * price
-    
+temp = input(int('enter the temp in C : '))
+#temp = int(tempe)
+#if temp == int:
+if (temp) >= 30:
+    print("it's a hot day")
+elif (temp) <=10:
+    print("it's a cold day")
 else:
-    downpayment = 0.2 * price
-
-print(f'downpayment : {downpayment}')
+    print("it's neither hot nor cold.")
+#else: 
+#    print("please enter the valid credentials.")
