@@ -24,3 +24,79 @@ git init
 git remote add orgin <new git repo extension>
     # create a new folder under test and connect to local machine
 
+-----------------------------------------------------------------------
+
+                            PYTHON 3
+
+var_name = input("What is your name? ")
+print("Hi " + var_name + ". Welcome to age calculator.")
+var_birthyear = input("Enter your Birth Year: ")
+age = 2024 - int(var_birthyear)
+print(age)
+print("Hi " + var_name + ". Your age is " + str(age) + '.')
+    What is your name? John
+    Hi John. Welcome to age calculator.
+    Enter your Birth Year: 2000
+    24
+    Hi John. Your age is 24.
+
+
+
+#####Ask a user their weight in Kilograme and convert it to Pounds and print it
+###1 pounds = 0.453592 Kilograme
+Weight_in_kilograme = input("What is your weight in Kilograme: ")
+convert = 2.20462 * int(Weight_in_kilograme)
+print("YOur weight in Pounds is " + str(convert))
+    What is your weight in Kilograme: 63
+    YOur weight in Pounds is 138.89105999999998
+
+## formated strings f'   :
+first_name = 'John'
+last_name = 'Smith'
+###normal string value given below:
+print(first_name + ' [' + last_name + ']' ' is a coder')
+### formated strings using f'
+print(f'{first_name} [{last_name}] is a coder' )
+    John [Smith] is a coder
+    John [Smith] is a coder
+
+#### String Methods:
+    len - Print the number of carrectors (Only find 50 carrectors)
+course = 'Python course for begineers'
+          012345678901234567890123456
+                ##  11111111112222222
+                                   =27   
+print(len(course))
+    27
+
+
+course = 'Python course for begineers'
+print(course.replace('begineers', 'Absolute Begineers.'))
+    Python course for Absolute Begineers.
+
+
+in => find method 
+course = 'Python course for begineers'
+print('Python' in course)
+    True
+
+
+Math Operator triangle
+    1. Parenthesis ().
+    2. exponentiation 2**3 = 8      => 2 x 2 x 2 = 8
+    3. Multiplication (*) or divition (/)
+    4. Addition (+) or subtraction (-)
+A = 10 + 2 * 3 ** 2     => 3 x 3 x 3 = 27 x 2 = 54 + 10 = 64
+    64
+
+Math functions:
+    round    
+      |
+    x = 2.6
+    print(round(x))
+        3
+
+
+#####Price of a house is $ 1M. If a buyer has googd credit, they need to put down 10%. otherwise they need to put down 20%. Print the down payment.
+
+
